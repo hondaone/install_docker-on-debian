@@ -4,18 +4,18 @@
 Ce dépôt contient un script Bash simple et automatisé pour installer :
 **Docker** et **Docker Compose** sur Debian 12.
 # ⚙️  Ce que fait le script
-1 Met à jour le système
-2 Installe les dépendances nécessaires
-3 Ajoute la clé GPG officielle de Docker
-4 Configure le dépôt Docker
-5 Installe :
-        docker-ce
-        docker-ce-cli
-        containerd.io
-        docker-buildx-plugin
-        docker-compose-plugin
-        Affiche les versions installées
-        Ajoute l’utilisateur au groupe docker
+- 1 Met à jour le système
+- 2 Installe les dépendances nécessaires
+- 3 Ajoute la clé GPG officielle de Docker
+- 4 Configure le dépôt Docker
+- 5 Installe :
+- -- docker-ce
+- -- docker-ce-cli
+- -- containerd.io
+- -- docker-buildx-plugin
+- -- docker-compose-plugin
+- -- Affiche les versions installées
+- -- Ajoute l’utilisateur au groupe docker
 ---
 
 ## 📋 Prérequis
